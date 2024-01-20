@@ -1,0 +1,249 @@
+{
+    "setting": {
+        "settings": "ضبط",
+        "current_location": "موقعك الحالي",
+        "name_location": "بوريفالى ، مومباي ، الهند",
+        "update": "تحديث",
+        "languages": "اللغات",
+        "show_me": "أرِنِي",
+        "maximum_distance": "المسافة القصوى",
+        "distance_num": "كم",
+        "people_radius": "اعرض الأشخاص داخل هذا النطاق",
+        "radius_dis": "تحتاج المزيد من redious بعيدا؟\nقم بالترقية إلى حساب vip واحصل على مسافة 1000 كم",
+        "age_range": "الفئة العمرية",
+        "range_num": "إلى",
+        "age_dis": "اعرض الأشخاص ضمن هذه الفئة العمرية",
+        "app_notification": "تنبيهات التطبيق",
+        "hide_account": "إخفاء الحساب",
+        "delete_account": "حذف الحساب",
+        "delete_alert": "هل أنت متأكد أنك تريد حذف الحساب؟",
+        "no": "رقم",
+        "yes": "نعم",
+        "male": "ذكر",
+        "female": "أنثى"
+    },
+    "profile": {
+        "profile": "الملف الشخصي",
+        "profile_name": "رافي باتل",
+        "profile_location": "مومباي، الهند",
+        "edit_profile": "تعديل الملف الشخصي",
+        "title_settings": "إعدادات",
+        "like": "يحب",
+        "dislike": "لم يعجبنى",
+        "vip_account": "حساب VIP",
+        "about_us": "معلومات عنا",
+        "share_with_friends": "شارك مع الاصدقاء",
+        "rate": "معدل",
+        "signout": "خروج"
+    },
+    "edit_profile": {
+        "edit_profile": "تعديل الملف الشخصي",
+        "change_profile_photo": "تغيير صورة الملف الشخصي",
+        "camera": "آلة تصوير",
+        "gallery": "صالة عرض",
+        "remove_image": "إزالة الصورة",
+        "profile_name": "رافي باتل",
+        "profile_location": "مومباي، الهند",
+        "add_photo": "إضافة صورة",
+        "name": "اسم",
+        "email_address": "عنوان البريد الالكترونى",
+        "date_birth": "تاريخ الولادة",
+        "height": "هيغt",
+        "Weight": "وزن",
+        "Interest": "فائدة",
+        "Occupation": "إشغال",
+        "Nationality": "جنسية",
+        "UPDATE": "تحديث",
+        "cm": "سم",
+        "kg": "كلغ"
+    },
+    "like": {
+        "who_like": "المستخدم الذي يحبك"
+    },
+    "dislike": {
+        "who_dislike": "المستخدم الذي يكرهك"
+    },
+    "vip": {
+        "vip_account": "حساب VIP",
+        "vip_desc": "مرحبًا رافي ، أصبح عضوًا مميزًا واستمتع بالمزايا الواردة أدناه.",
+        "subscribe_plan": "خطة الاشتراك",
+        "vip_1_month": "VIP 1 شهر",
+        "vip_6_month": "VIP 6 شهر",
+        "vip_1_year": "VIP 1 سنة",
+        "vip_benefits": "فوائد كبار الشخصيات",
+        "discover_people": "اكتشف المزيد من الناس من حولك.",
+        "people_like": "انظر الناس الذين يحبونك.",
+        "people_dislike": "انظر الناس الذين لا يحبونك.",
+        "math_fast": "احصل على المباراة بشكل أسرع.",
+        "select_method": "إختر طريقة الدفع",
+        "credit_card": "بطاقة الائتمان بطاقة الخصم",
+        "net_banking": "صافي المصرفية",
+        "upi_app": "تطبيق UPI آخر",
+        "subscribe": "الإشتراك"
+    },
+    "payment": {
+        "payment_title": "تفاصيل الدفع",
+        "card_holdar_name": "اسم حامل البطاقة",
+        "name": "أدخل اسم حامل البطاقة",
+        "card_number": "رقم البطاقة",
+        "number": "أدخل رقم البطاقة",
+        "cvv": "CVV",
+        "cvv_num": "أدخل CVV",
+        "valid_through": "صالحة من خلال",
+        "Valid_date": "صالحة من خلال",
+        "pay_securlay": "الدفع الآمن"
+    },
+    "success": {
+        "payment_success": "تم الدفع بنجاح",
+        "thank_you": "شكرًا لك! أنت الآن تتمتع بكل \n فوائد هذا التطبيق وتجد ما يناسبك.",
+        "back_to_home": "العودة إلى المنزل"
+    },
+    "about": {
+        "about_title": "معلومات عنا",
+        "about_app": "حول التطبيق",
+        "term_of_use": "شروط الاستخدام",
+        "source_libaries": "مكتبات مفتوحة المصدر",
+        "app_version": "إصدار التطبيق",
+        "question": "هل لديك سؤال؟",
+        "send_message": "أرسل الرسالة إلى عنوان بريدنا الإلكتروني:"
+    },
+    "share": {
+        "share_via": "شارك عبر"
+    },
+    "rate": {
+        "like_app": "هل أعجبك هذا التطبيق",
+        "what_you_think": "دعنا نعرف ما هو رأيك",
+        "write_mesaage": "اكتب رسالتك هنا",
+        "cancel": "إلغاء",
+        "submit": "إرسال"
+    },
+    "signout": {
+        "Signout": "خروج",
+        "sure_message": "هل أنت متأكد أنك تريد الخروج؟",
+        "no": "رقم",
+        "yes": "نعم"
+    },
+    "vip_like": {
+        "who_like": "المستخدم الذي يحبك"
+    },
+    "vip_dislike": {
+        "who_dislike": "المستخدم الذي يكرهك"
+    },
+    "app_exit": {
+        "exit_text": "اضغط مرة أخرى للخروج"
+    },
+    "home": {
+        "near_you": "بالقرب منك",
+        "see_all": "اظهار الكل",
+        "photo_name": "غالينا فيشار ، 24",
+        "waiting_text": "في انتظار أفضل شريك",
+        "away": "كم",
+        "hello_ravi": "مرحبا رافي",
+        "find_partner": "ابحث عن شريك حياتك"
+    },
+    "it_match": {
+        "cong_match": "تهانينا\nإنها مباراة",
+        "match_desc": "لديك أنت وجالينا 80٪ من المطابقة ، دعنا نسألها عن شيء مثير للاهتمام",
+        "send_msg": "أرسل رسالة"
+    },
+    "chat": {
+        "name": "كيرتي باتل",
+        "online": "متصل",
+        "block": "حاجز",
+        "block_text": "هل أنت متأكد أنك تريد منع kirti؟",
+        "no": "رقم",
+        "yes": "نعم",
+        "block_account": "حظر الحساب",
+        "report": "تقرير",
+        "type_text": "اكتب النص هنا...."
+    },
+    "call": {
+        "chat": "دردشة",
+        "name": "كيرتي باتل",
+        "dialing": "جاري الاتصال ..."
+    },
+    "video_call": {
+        "name": "كيرتي باتل"
+    },
+    "detail": {
+        "name": "غالينا فيشار ، 24",
+        "location": "مومباي، الهند",
+        "about": "حول",
+        "basic_info": "معلومات اساسية",
+        "height": "ارتفاع",
+        "height_num": "175 سم",
+        "weight": "وزن",
+        "weight_kg": "50 كجم",
+        "birth_date": "تاريخ الميلاد",
+        "date": "1 يناير 2001",
+        "relationship": "صلة",
+        "re_status": "غير مرتبطة",
+        "occupation": "إشغال",
+        "occupation_name": "مصمم Ux",
+        "company": "شركة",
+        "company_name": "Jsk infotact",
+        "nation": "أمة",
+        "nation_name": "هندي",
+        "intrest": "فائدة",
+        "intrest_name": "القراءة والسباحة والموسيقى",
+        "photo": "صورة"
+    },
+    "match": {
+        "match_title": "مباراة"
+    },
+    "message": {
+        "msg_title": "رسائل"
+    },
+    "near_you": {
+        "near_you": "بالقرب منك"
+    },
+    "notification": {
+        "notification": "تنبيه",
+        "no_notification": "لا يوجد إشعار جديد",
+        "today": "اليوم",
+        "remove_text": "إزالة من الإخطار",
+        "yesterday": "في الامس"
+    },
+    "splash": {
+        "splash_name": "مباراة"
+    },
+    "onborading": {
+        "find_best": "اعثر على أفضل ما لديك",
+        "partner": "شريك",
+        "get_started": "البدء"
+    },
+    "show_me": {
+        "show_me": "أرِنِي",
+        "man": "رجل",
+        "woman": "النساء",
+        "Other": "آخر"
+    },
+    "location_enable": {
+        "enable_disc": "سوف تحتاج إلى عدم القدرة على تحديد الموقع من أجل استخدام هذا التطبيق.",
+        "enable_location": "تمكن موقع",
+        "please_wait": "أرجو الإنتظار"
+    },
+    "gender": {
+        "i_am": "أنا",
+        "man": "رجل",
+        "woman": "النساء",
+        "other": "آخر"
+    },
+    "sign_in": {
+        "signin": "تسجيل الدخول",
+        "enter_no": "أدخل رقم هاتفك المحمول",
+        "or": "أو"
+    },
+    "sign_up": {
+        "signup": "اشتراك",
+        "enter_name": "أدخل أسمك",
+        "enter_email": "أدخل معرف البريد الإلكتروني الخاص بك",
+        "enter_moile": "أدخل رقم هاتفك المحمول",
+        "or": "أو"
+    },
+    "verification": {
+        "verify": "تَحَقّق",
+        "continue": "يكمل",
+        "resend": "إعادة إرسال"
+    }
+}

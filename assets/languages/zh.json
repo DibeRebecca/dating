@@ -1,0 +1,249 @@
+{
+    "setting": {
+        "settings": "环境",
+        "current_location": "您当前的位置",
+        "name_location": "博里瓦利，孟买，印度",
+        "update": "更新",
+        "languages": "语言",
+        "show_me": "给我看看",
+        "maximum_distance": "最大距离",
+        "distance_num": "公里",
+        "people_radius": "显示此范围内的人",
+        "radius_dis": "需要更远的距离？\n升级到vip帐户并获得1000公里的半径",
+        "age_range": "年龄范围",
+        "range_num": "到",
+        "age_dis": "显示这个年龄段的人",
+        "app_notification": "应用通知 ",
+        "hide_account": "隐藏帐户",
+        "delete_account": "删除帐户",
+        "delete_alert": "您确定要删除帐户吗？",
+        "no": "不",
+        "yes": "是的",
+        "male": "男性",
+        "female": "女性"
+    },
+    "profile": {
+        "profile": "轮廓",
+        "profile_name": "拉维帕特尔",
+        "profile_location": "印度孟买",
+        "edit_profile": "编辑个人资料",
+        "title_settings": "设置",
+        "like": "喜欢",
+        "dislike": "不喜欢",
+        "vip_account": "贵宾账户",
+        "about_us": "关于我们",
+        "share_with_friends": "和朋友分享",
+        "rate": "速度",
+        "signout": "登出"
+    },
+    "edit_profile": {
+        "edit_profile": "编辑个人资料",
+        "change_profile_photo": "更改个人资料照片",
+        "camera": "相机",
+        "gallery": "画廊",
+        "remove_image": "移除图片",
+        "profile_name": "拉维帕特尔",
+        "profile_location": "印度孟买",
+        "add_photo": "添加照片",
+        "name": "姓名",
+        "email_address": "电子邮件地址",
+        "date_birth": "出生日期",
+        "height": "高度",
+        "Weight": "重量",
+        "Interest": "兴趣",
+        "Occupation": "职业",
+        "Nationality": "国籍",
+        "UPDATE": "更新",
+        "cm": "厘米",
+        "kg": "公斤"
+    },
+    "like": {
+        "who_like": "喜欢你的用户"
+    },
+    "dislike": {
+        "who_dislike": "不喜欢你的用户"
+    },
+    "vip": {
+        "vip_account": "贵宾账户",
+        "vip_desc": "你好拉维 成为 贵宾 会员并享受以下福利。",
+        "subscribe_plan": "订阅计划",
+        "vip_1_month": "贵宾1个月",
+        "vip_6_month": "贵宾 6 个月",
+        "vip_1_year": "贵宾 1 年",
+        "vip_benefits": "贵宾福利",
+        "discover_people": "发现更多你身边的人。",
+        "people_like": "见喜欢你的人。",
+        "people_dislike": "见不喜欢你的人。",
+        "math_fast": "更快地获得匹配。",
+        "select_method": "选择您的付款方式",
+        "credit_card": "信用卡/借记卡",
+        "net_banking": "网上银行",
+        "upi_app": "其他 UPI 应用",
+        "subscribe": "订阅"
+    },
+    "payment": {
+        "payment_title": "付款明细",
+        "card_holdar_name": "持卡人姓名",
+        "name": "输入持卡人姓名",
+        "card_number": "卡号",
+        "number": "输入卡号",
+        "cvv": "CVV",
+        "cvv_num": "输入 CVV",
+        "valid_through": "有效通过",
+        "Valid_date": "有效通过",
+        "pay_securlay": "支付安全"
+    },
+    "success": {
+        "payment_success": "支付成功",
+        "thank_you": "谢谢！现在您可以享受此应用程序的所有\n好处并找到您的匹配项.",
+        "back_to_home": "回到家"
+    },
+    "about": {
+        "about_title": "关于我们",
+        "about_app": "关于申请",
+        "term_of_use": "使用条款",
+        "source_libaries": "开源库",
+        "app_version": "应用版本",
+        "question": "你有问题吗？",
+        "send_message": "将消息发送到我们的电子邮件地址："
+    },
+    "share": {
+        "share_via": "分享方式"
+    },
+    "rate": {
+        "like_app": "你喜欢这个应用程序吗",
+        "what_you_think": "让我们知道你的想法",
+        "write_mesaage": "在这里写下你的信息",
+        "cancel": "取消",
+        "submit": "提交"
+    },
+    "signout": {
+        "Signout": "登出",
+        "sure_message": "您确定要退出吗？",
+        "no": "不",
+        "yes": "是的"
+    },
+    "vip_like": {
+        "who_like": "喜欢你的用户"
+    },
+    "vip_dislike": {
+        "who_dislike": "不喜欢你的用户"
+    },
+    "app_exit": {
+        "exit_text": "再按一次退出"
+    },
+    "home": {
+        "near_you": "在你旁边",
+        "see_all": "看到所有",
+        "photo_name": "加琳娜·费沙尔，24",
+        "waiting_text": "等待最佳合作伙伴",
+        "away": "公里远",
+        "hello_ravi": "你好拉维",
+        "find_partner": "寻找你的生活伴侣r"
+    },
+    "it_match": {
+        "cong_match": "祝贺\n是比赛",
+        "match_desc": "你和 Galina 有 80% 的匹配度让我们向她询问一些相关的事情",
+        "send_msg": "发信息"
+    },
+    "chat": {
+        "name": "基尔蒂·帕特尔",
+        "online": "在线的",
+        "block": "堵塞",
+        "block_text": "确定要屏蔽 kirti 吗？",
+        "no": "不",
+        "yes": "是的",
+        "block_account": "冻结账户",
+        "report": "报告",
+        "type_text": "在此输入文字...."
+    },
+    "call": {
+        "chat": "聊天",
+        "name": "基尔蒂·帕特尔",
+        "dialing": "拨号..."
+    },
+    "video_call": {
+        "name": "基尔蒂·帕特尔"
+    },
+    "detail": {
+        "name": "加琳娜·费沙尔，24",
+        "location": "印度孟买",
+        "about": "关于",
+        "basic_info": "基本信息",
+        "height": "高度",
+        "height_num": "175 厘米",
+        "weight": "重量",
+        "weight_kg": "50 公斤",
+        "birth_date": "出生日期",
+        "date": "2001年1月1日",
+        "relationship": "关系",
+        "re_status": "单身的",
+        "occupation": "职业",
+        "occupation_name": "用户体验设计师",
+        "company": "公司",
+        "company_name": "Jsk信息联系",
+        "nation": "国家",
+        "nation_name": "印度人",
+        "intrest": "兴趣",
+        "intrest_name": "阅读、游泳、音乐",
+        "photo": "照片"
+    },
+    "match": {
+        "match_title": "匹配"
+    },
+    "message": {
+        "msg_title": "留言"
+    },
+    "near_you": {
+        "near_you": "在你旁边"
+    },
+    "notification": {
+        "notification": "通知",
+        "no_notification": "没有新通知",
+        "today": "今天",
+        "remove_text": "从通知中移除",
+        "yesterday": "昨天"
+    },
+    "splash": {
+        "splash_name": "匹配"
+    },
+    "onborading": {
+        "find_best": "找到最好的",
+        "partner": "伙伴",
+        "get_started": "开始"
+    },
+    "show_me": {
+        "show_me": "给我看看",
+        "man": "男人",
+        "woman": "女士",
+        "Other": "其他"
+    },
+    "location_enable": {
+        "enable_disc": "您将需要无法定位才能使用此应用程序。",
+        "enable_location": "启用位置",
+        "please_wait": "请稍等"
+    },
+    "gender": {
+        "i_am": "我是一个",
+        "man": "男人",
+        "woman": "女士",
+        "other": "其他"
+    },
+    "sign_in": {
+        "signin": "登入",
+        "enter_no": "输入您的手机号码",
+        "or": "或者"
+    },
+    "sign_up": {
+        "signup": "报名",
+        "enter_name": "输入你的名字",
+        "enter_email": "输入您的电子邮件 ID",
+        "enter_moile": "输入您的手机号码",
+        "or": "或者"
+    },
+    "verification": {
+        "verify": "确认",
+        "continue": "继续",
+        "resend": "重发"
+    }
+}

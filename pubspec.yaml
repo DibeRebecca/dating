@@ -1,0 +1,111 @@
+name: match_dating
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.9
+  readmore: ^2.2.0
+  animated_bottom_navigation_bar: ^1.1.0
+  shared_preferences: ^2.0.15
+  intl: ^0.17.0
+  month_year_picker: ^0.2.0+2
+  swipe_cards: ^1.0.0
+  dio_retry_fixed: ^0.1.15-beta-null-safety
+  cached_network_image: ^3.2.2
+  emoji_picker_flutter: ^1.5.0
+  flutter_keyboard_visibility: ^5.4.0
+
+  firebase_core: ^2.4.0
+  firebase_analytics: ^10.0.7
+  firebase_auth: ^4.2.0
+  cloud_firestore: ^4.2.0
+  pinput: ^2.2.12
+  dio: ^4.0.6
+  fluttertoast: ^8.0.9
+  gap: ^2.0.0
+  intl_phone_number_input: ^0.7.0+2
+  provider: ^6.0.3
+  flutter_feather_icons: ^2.0.0+1
+  flutter_statusbarcolor_ns: ^0.5.0
+  swiping_card_deck: ^1.2.0
+  swipable_stack: ^2.0.0
+  change_app_package_name: ^1.1.0
+  flutter_app_name: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+permissions:
+  internet:
+
+flutter_app_name:
+  name: "Soe Dating"
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/splash/
+    - assets/images/
+    - assets/onboarding/
+    - assets/auth/
+    - assets/location/
+    - assets/home/
+    - assets/detail/
+    - assets/itsmatch/
+    - assets/message/
+    - assets/match/
+    - assets/notification/
+    - assets/call/
+    - assets/chat/
+    - assets/profile/
+    - assets/payment/
+    - assets/nearyou/
+    - assets/languages/
+    - assets/loading/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/Montserrat-Bold.ttf
+        - asset: fonts/montserrat/Montserrat-ExtraBold.ttf
+          weight: 700
+        - asset: fonts/montserrat/Montserrat-Medium.ttf
+          weight: 100
+        - asset: fonts/montserrat/Montserrat-SemiBold.ttf
+          weight: 500
+        - asset: fonts/montserrat/Montserrat-Regular.ttf
+          weight: 200

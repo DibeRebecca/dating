@@ -1,0 +1,251 @@
+{
+    "setting": {
+        "settings": "Settings",
+        "current_location": "Your current location",
+        "name_location": "Borivali,Mumbai ,India",
+        "update": "Update",
+        "languages": "Languages",
+        "show_me": "Show me",
+        "maximum_distance": "Maximum distance",
+        "distance_num": "km",
+        "people_radius": "Show people within this radius",
+        "radius_dis": "Need more redious away ?\nupgrade to vip account and get 1000 km radious away",
+        "age_range": "Age range",
+        "range_num": "to",
+        "age_dis": "Show people within this age range",
+        "app_notification": "App notification ",
+        "hide_account": "Hide account",
+        "delete_account": "Delete account",
+        "delete_alert": "Are you sure you want to Delete account?",
+        "no": "No",
+        "yes": "Yes",
+        "male": "Male",
+        "female": "Female"
+    },
+    "profile": {
+        "profile": "Profile",
+        "profile_name": "Ravi patel",
+        "profile_location": "Mumbai ,India",
+        "edit_profile": "Edit profile",
+        "title_settings": "Settings",
+        "like": "Like",
+        "dislike": "Dislike",
+        "vip_account": "VIP account",
+        "about_us": "About us",
+        "share_with_friends": "Share with friends",
+        "rate": "Rate",
+        "signout": "Signout"
+    },
+    "edit_profile": {
+        "edit_profile": "Edit Profile",
+        "change_profile_photo": "Change profile photo",
+        "camera": "Camera",
+        "gallery": "Gallery",
+        "remove_image": "Remove image",
+        "profile_name": "Ravi patel",
+        "profile_location": "Mumbai ,India",
+        "add_photo": "Add photo",
+        "name": "Name",
+        "email_address": "Email Address",
+        "date_birth": "Date of birth",
+        "height": "Height",
+        "Weight": "Weight",
+        "Interest": "Interest",
+        "Occupation": "Occupation",
+        "Nationality": "Nationality",
+        "UPDATE": "UPDATE",
+        "cm": "cm",
+        "kg": "kg"
+    },
+    "like": {
+        "who_like": "User who like you"
+    },
+    "dislike": {
+        "who_dislike": "User who dislike you"
+    },
+    "vip": {
+        "vip_account": "VIP account",
+        "vip_desc": "Hello Ravi  become a vip memeber and enjoy the benefits below.",
+        "subscribe_plan": "Subscribe plan",
+        "vip_1_month": "VIP 1 month",
+        "vip_6_month": "VIP 6 month",
+        "vip_1_year": "VIP 1 year",
+        "vip_benefits": "Vip Benefits",
+        "discover_people": "Discover more people around you.",
+        "people_like": "See people who like you.",
+        "people_dislike": "See people who dislike you.",
+        "math_fast": "Get match faster.",
+        "select_method": "Select your payment method",
+        "credit_card": "Credit Card/Debit Card",
+        "net_banking": "Net banking",
+        "upi_app": "Other UPI app",
+        "subscribe": "SUBSCRIBE"
+    },
+    "payment": {
+        "payment_title": "Payment detail",
+        "card_holdar_name": "Card holdar name",
+        "name": "Enter card holder name",
+        "card_number": "Card Number",
+        "number": "Enter card number",
+        "cvv": "CVV",
+        "cvv_num": "Enter CVV",
+        "valid_through": "Valid Through",
+        "Valid_date": "Valid through",
+        "pay_securlay": "PAY SECURLAY"
+    },
+    "success": {
+        "payment_success": "Payment Successful",
+        "thank_you": "Thank you! Now you are enjoy all the \nbenefit of this app and find your match.",
+        "back_to_home": "Back to home"
+    },
+    "about": {
+        "about_title": "About us",
+        "about_app": "About application",
+        "term_of_use": "Term Of use",
+        "source_libaries": "Open source Libaries",
+        "app_version": "Application version",
+        "question": "Do you have question?",
+        "send_message": "Send the message to our email address:"
+    },
+    "share": {
+        "share_via": "Share via"
+    },
+    "rate": {
+        "like_app": "Did you like this app",
+        "what_you_think": "Lets know what you think",
+        "write_mesaage": "Write your message here",
+        "cancel": "CANCEL",
+        "submit": "SUBMIT"
+    },
+    "signout": {
+        "Signout": "Signout",
+        "sure_message": "Are you sure you want to signout?",
+        "no": "No",
+        "yes": "Yes"
+    },
+    "vip_like": {
+        "who_like": "User who like you"
+    },
+    "vip_dislike": {
+        "who_dislike": "User who dislike you"
+    },
+    "app_exit": {
+        "exit_text": "Press back once again to exit"
+    },
+    "home": {
+        "near_you": "Near you",
+        "see_all": "See all",
+        "photo_name": "Galina Fishar,24",
+        "waiting_text": "Waiting for a best partner",
+        "away": " km away",
+        "hello_ravi": "Hello Ravi",
+        "find_partner": "Find your life partner"
+    },
+    "it_match": {
+        "cong_match": "congratulations\nIt's match",
+        "match_desc": "You and Galina have 80% matching let’s ask  her about somthing  intresed",
+        "send_msg": "SEND MESSAGE"
+    },
+    "chat": {
+        "name": "Kirti Patel",
+        "online": "Online",
+        "block": "Block",
+        "block_text": "Are you sure you want to block kirti?",
+        "no": "No",
+        "yes": "Yes",
+        "block_account": "Block Account",
+        "report": "Report",
+        "type_text": "Type your text here...."
+    },
+    "call": {
+        "chat": "Chat",
+        "name": "Kirti  Patel",
+        "dialing": "Dialing..."
+    },
+    "video_call": {
+        "name": "Kirti  Patel"
+    },
+    "detail": {
+        "name": "Galina Fishar,24",
+        "location": "Mumbai,India",
+        "about": "About",
+        "basic_info": "Basic Information",
+        "height": "Height",
+        "height_num": "175 cm",
+        "weight": "Weight",
+        "weight_kg": "50 kg",
+        "birth_date": "BirthDate",
+        "date": "1 january 2001",
+        "relationship": "Relationship",
+        "re_status": "single",
+        "occupation": "Occupation",
+        "occupation_name": "Ux designer",
+        "company": "Company",
+        "company_name": "Jsk infotact",
+        "nation": "Nation",
+        "nation_name": "Indian",
+        "intrest": "Intrest",
+        "intrest_name": "Reading,swimming,music",
+        "photo": "Photo"
+    },
+    "match": {
+        "match_title": "Match"
+    },
+    "message": {
+        "msg_title": "Messages"
+    },
+    "near_you": {
+        "near_you": "Near you"
+    },
+    "notification": {
+        "notification": "Notification",
+        "no_notification": "No new notification",
+        "today": "Today",
+        "remove_text": "Romove From Notification",
+        "yesterday": "Yesterday"
+    },
+    "splash": {
+        "splash_name": "Match"
+    },
+    "onborading": {
+        "find_best": "FIND YOUR BEST",
+        "partner": "PARTNER",
+        "get_started": "GET STARTED"
+    },
+    "show_me": {
+        "show_me": "show me",
+        "man": "MAN",
+        "woman": "WOMAN",
+        "Other": "OTHER"
+    },
+    "location_enable": {
+        "enable_disc": "You will need to unable location in order to use this application.",
+        "enable_location": "ENABLE LOCATION",
+        "please_wait": "Please wait"
+    },
+    "gender": {
+        "i_am": "I am a",
+        "man": "MAN",
+        "woman": "WOMAN",
+        "other": "OTHER"
+    },
+    "sign_in": {
+        "signin": "SIGNIN",
+        "enter_no": "Enter your mobile no",
+        "enter_password": "Enter your password",
+        "create_new_account": "Create new account",
+        "or": "Or"
+    },
+    "sign_up": {
+        "signup": "SIGNUP",
+        "enter_name": "Enter your name",
+        "enter_email": "Enter your email id",
+        "enter_moile": "Enter your mobile no",
+        "or": "Or"
+    },
+    "verification": {
+        "verify": "Verification",
+        "continue": "Continue",
+        "resend": "Resend"
+    }
+}

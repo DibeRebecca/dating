@@ -1,0 +1,249 @@
+{
+    "setting": {
+        "settings": "समायोजन",
+        "current_location": "आपके वर्तमान स्थान",
+        "name_location": "बोरीवली,मुंबई ,इंडिया",
+        "update": "अद्यतन",
+        "languages": "बोली",
+        "show_me": "मुझे दिखाओ",
+        "maximum_distance": "अधिकतम दूरी",
+        "distance_num": "किमी",
+        "people_radius": "इस दायरे में लोगों को दिखाएं",
+        "radius_dis": "अधिक रेडियस दूर चाहिए?\nवीआईपी खाते में अपग्रेड करें और 1000 किमी रेडियस दूर पाएं",
+        "age_range": "आयु सीमा",
+        "range_num": " से ",
+        "age_dis": "इस आयु सीमा के लोगों को दिखाएं",
+        "app_notification": "ऐप अधिसूचना ",
+        "hide_account": "खाता छुपाएं",
+        "delete_account": "खाता हटा दो",
+        "delete_alert": "क्या आप वाकई खाता हटाना चाहते हैं?",
+        "no": "नहीं",
+        "yes": "हाँ",
+        "male": "पुरुष",
+        "female": "महिला"
+    },
+    "profile": {
+        "profile": "प्रोफ़ाइल",
+        "profile_name": "रवि पटेल",
+        "profile_location": "मुंबई, भारत",
+        "edit_profile": "प्रोफ़ाइल संपादित करें",
+        "title_settings": "समायोजन",
+        "like": "पसंद करना",
+        "dislike": "नापसन्द",
+        "vip_account": "वीआईपी खाता",
+        "about_us": "हमारे बारे में",
+        "share_with_friends": "दोस्तों के साथ बांटें",
+        "rate": "भाव",
+        "signout": "साइन आउट"
+    },
+    "edit_profile": {
+        "edit_profile": "प्रोफ़ाइल संपादित करें",
+        "change_profile_photo": "प्रोफाइल फोटो बदलें",
+        "camera": "कैमरा",
+        "gallery": "गेलरी",
+        "remove_image": "छवि हटाएं",
+        "profile_name": "रवि पटेल",
+        "profile_location": "प्रोफ़ाइल_स्थान",
+        "add_photo": "तस्वीर जोड़ो",
+        "name": "नाम",
+        "email_address": "ईमेल पता",
+        "date_birth": "जन्म की तारीख",
+        "height": "कद",
+        "Weight": "वज़न",
+        "Interest": "रुचि",
+        "Occupation": "व्यवसाय",
+        "Nationality": "राष्ट्रीयता",
+        "UPDATE": "अपडेट करें",
+        "cm": "सेमी",
+        "kg": "किलोग्राम"
+    },
+    "like": {
+        "who_like": "उपयोगकर्ता जो आपको पसंद करते हैं"
+    },
+    "dislike": {
+        "who_dislike": "उपयोगकर्ता जो आपको नापसंद करते हैं"
+    },
+    "vip": {
+        "vip_account": "वीआईपी खाता",
+        "vip_desc": "हैलो रवि एक वीआईपी सदस्य बनें और नीचे दिए गए लाभों का आनंद लें।",
+        "subscribe_plan": "सदस्यता लें योजना",
+        "vip_1_month": "वीआईपी 1 महीना",
+        "vip_6_month": "वीआईपी 6 महीने",
+        "vip_1_year": "वीआईपी 1 साल",
+        "vip_benefits": "वीआईपी लाभ",
+        "discover_people": "अपने आस-पास और लोगों को खोजें।",
+        "people_like": "ऐसे लोगों को देखें जो आपको पसंद करते हैं।",
+        "people_dislike": "ऐसे लोगों को देखें जो आपको नापसंद करते हैं।",
+        "math_fast": "मैच तेजी से प्राप्त करें।",
+        "select_method": "अपने भुगतान का तरीका चुनें",
+        "credit_card": "क्रेडिट कार्ड/डेबिट कार्ड",
+        "net_banking": "नेट बैंकिंग",
+        "upi_app": "अन्य यूपीआई ऐप",
+        "subscribe": "सदस्यता लें"
+    },
+    "payment": {
+        "payment_title": "भुगतान विवरण",
+        "card_holdar_name": "कार्ड धारक का नाम",
+        "name": "कार्ड धारक का नाम दर्ज करें",
+        "card_number": "कार्ड नंबर",
+        "number": "कार्ड नंबर दर्ज करें",
+        "cvv": "सीवीवी",
+        "cvv_num": "201",
+        "valid_through": "तब तक वैध",
+        "Valid_date": "तब तक वैध",
+        "pay_securlay": "वेतन भुगतान"
+    },
+    "success": {
+        "payment_success": "भुगतान सफल",
+        "thank_you": "आपको धन्यवाद! अब आप इस ऐप के सभी \nलाभों का आनंद ले रहे हैं और अपना मिलान ढूंढ़ रहे हैं।",
+        "back_to_home": "घर वापिस जा रहा हूँ"
+    },
+    "about": {
+        "about_title": "हमारे बारे में",
+        "about_app": "आवेदन के बारे में",
+        "term_of_use": "उपयोग की शर्त",
+        "source_libaries": "खुला स्रोत पुस्तकालय",
+        "app_version": "एप्लिकेशन वर्जन",
+        "question": "क्या आपके पास प्रश्न है?",
+        "send_message": "हमारे ईमेल पते पर संदेश भेजें:"
+    },
+    "share": {
+        "share_via": "के माध्यम से बाँटे"
+    },
+    "rate": {
+        "like_app": "क्या आपको यह ऐप पसंद आया",
+        "what_you_think": "आइए जानते हैं कि आप क्या सोचते हैं",
+        "write_mesaage": "यहां अपना संदेश लिखें",
+        "cancel": "रद्द करना",
+        "submit": "प्रस्तुत"
+    },
+    "signout": {
+        "Signout": "साइन आउट",
+        "sure_message": "क्या आप द्वारा साइन आउट किया जाना सुनिश्चित है?",
+        "no": "नहीं",
+        "yes": "हाँ"
+    },
+    "vip_like": {
+        "who_like": "उपयोगकर्ता जो आपको पसंद करते हैं"
+    },
+    "vip_dislike": {
+        "who_dislike": "उपयोगकर्ता जो आपको नापसंद करते हैं"
+    },
+    "app_exit": {
+        "exit_text": "बाहर निकलने के लिए एक बार फिर से दबाएं"
+    },
+    "home": {
+        "near_you": "आप के पास",
+        "see_all": "सभी देखें",
+        "photo_name": "गैलिना फिशर, 24",
+        "waiting_text": "बेस्ट पार्टनर का इंतजार",
+        "away": "किमी दूर",
+        "hello_ravi": "नमस्ते रवि",
+        "find_partner": "अपने जीवन साथी को खोजें"
+    },
+    "it_match": {
+        "cong_match": "बधाई हो\nयह मेल है",
+        "match_desc": "आप और गैलिना के बीच 80% मेल खाते हैं, आइए उससे कुछ दिलचस्प के बारे में पूछें",
+        "send_msg": "मेसेज भेजें"
+    },
+    "chat": {
+        "name": "कीर्ति पटेल",
+        "online": "ऑनलाइन",
+        "block": "ब्लॉक",
+        "block_text": "क्या आप वाकई कीर्ति को ब्लॉक करना चाहते हैं?",
+        "no": "नहीं",
+        "yes": "हाँ",
+        "block_account": "खाता ब्लॉक करें",
+        "report": "प्रतिवेदन",
+        "type_text": "यहां अपना पाठ लिखें...."
+    },
+    "call": {
+        "chat": "बात करना",
+        "name": "कीर्ति पटेल",
+        "dialing": "डायल कर रहा है..."
+    },
+    "video_call": {
+        "name": "कीर्ति पटेल"
+    },
+    "detail": {
+        "name": "गैलिना फिशर, 24",
+        "location": "मुंबई, भारत",
+        "about": "के बारे में",
+        "basic_info": "मूल जानकारी",
+        "height": "कद",
+        "height_num": "175 सेमी",
+        "weight": "वज़न",
+        "weight_kg": "50 किलो",
+        "birth_date": "BirthDate",
+        "date": "1 जनवरी 2001",
+        "relationship": "रिश्ता",
+        "re_status": "single",
+        "occupation": "व्यवसाय",
+        "occupation_name": "यूएक्स डिजाइनर",
+        "company": "कंपनी",
+        "company_name": "जेएसके इन्फोटैक्ट",
+        "nation": "राष्ट्र",
+        "nation_name": "भारतीय",
+        "intrest": "रुचि",
+        "intrest_name": "पढ़ना, तैरना, संगीत",
+        "photo": "फ़ोटो"
+    },
+    "match": {
+        "match_title": "मिलान"
+    },
+    "message": {
+        "msg_title": "संदेशों"
+    },
+    "near_you": {
+        "near_you": "आप के पास"
+    },
+    "notification": {
+        "notification": "अधिसूचना",
+        "no_notification": "कोई नई सूचना नहीं",
+        "today": "आज",
+        "remove_text": "अधिसूचना से रोमो",
+        "yesterday": "कल"
+    },
+    "splash": {
+        "splash_name": "मिलान"
+    },
+    "onborading": {
+        "find_best": "अपना सर्वश्रेष्ठ खोजें",
+        "partner": "साथी",
+        "get_started": "शुरू हो जाओ"
+    },
+    "show_me": {
+        "show_me": "मुझे दिखाओ",
+        "man": "आदमी",
+        "woman": "महिला",
+        "Other": "अन्य"
+    },
+    "location_enable": {
+        "enable_disc": "इस एप्लिकेशन का उपयोग करने के लिए आपको स्थान को अक्षम करने की आवश्यकता होगी।",
+        "enable_location": "स्थान सक्षम करें",
+        "please_wait": "कृपया प्रतीक्षा करें"
+    },
+    "gender": {
+        "i_am": "मैं एक",
+        "man": "आदमी",
+        "woman": "महिला",
+        "other": "अन्य"
+    },
+    "sign_in": {
+        "signin": "साइन इन करें",
+        "enter_no": "अपना मोबाइल नंबर दर्ज करें",
+        "or": "या"
+    },
+    "sign_up": {
+        "signup": "साइन अप करें",
+        "enter_name": "अपना नाम दर्ज करें",
+        "enter_email": "अपनी ईमेल आईडी दर्ज करें",
+        "enter_moile": "अपना मोबाइल नंबर दर्ज करें",
+        "or": "या"
+    },
+    "verification": {
+        "verify": "सत्यापन",
+        "continue": "जारी रखना",
+        "resend": "पुन: भेजें"
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "setting": {
+        "settings": "Pengaturan",
+        "current_location": "Lokasi Anda saat ini",
+        "name_location": "Borivali, Mumbai, India",
+        "update": "Memperbarui",
+        "languages": "Bahasa",
+        "show_me": "Tunjukkan kepadaku",
+        "maximum_distance": "Jarak maksimum",
+        "distance_num": "km",
+        "people_radius": "Tunjukkan orang-orang dalam radius ini",
+        "radius_dis": "Perlu lebih redious pergi?\ntingkatkan ke akun vip dan dapatkan jarak 1000 km",
+        "age_range": "Rentang usia",
+        "range_num": "sampai",
+        "age_dis": "Tampilkan orang-orang dalam rentang usia ini",
+        "app_notification": "Notifikasi aplikasi ",
+        "hide_account": "Sembunyikan akun",
+        "delete_account": "Hapus akun",
+        "delete_alert": "Anda yakin ingin Menghapus akun?",
+        "no": "Tidak",
+        "yes": "Ya",
+        "male": "Pria",
+        "female": "Perempuan"
+    },
+    "profile": {
+        "profile": "Profil",
+        "profile_name": "Ravi patel",
+        "profile_location": "Mumbai, India",
+        "edit_profile": "Sunting profil",
+        "title_settings": "Pengaturan",
+        "like": "Suka",
+        "dislike": "Benci",
+        "vip_account": "akun VIP",
+        "about_us": "Tentang kami",
+        "share_with_friends": "Bagikan dengan teman",
+        "rate": "Kecepatan",
+        "signout": "Keluar"
+    },
+    "edit_profile": {
+        "edit_profile": "Sunting profil",
+        "change_profile_photo": "Ubah foto profil",
+        "camera": "Kamera",
+        "gallery": "Galeri",
+        "remove_image": "Hapus gambar",
+        "profile_name": "Ravi patel",
+        "profile_location": "Mumbai, India",
+        "add_photo": "Tambahkan Foto",
+        "name": "Nama",
+        "email_address": "Alamat email",
+        "date_birth": "Tanggal lahir",
+        "height": "Tinggi",
+        "Weight": "Bobot",
+        "Interest": "Minat",
+        "Occupation": "Pekerjaan",
+        "Nationality": "Kebangsaan",
+        "UPDATE": "MEMPERBARUI",
+        "cm": "cm",
+        "kg": "kg"
+    },
+    "like": {
+        "who_like": "Pengguna yang menyukai Anda"
+    },
+    "dislike": {
+        "who_dislike": "Pengguna yang tidak menyukai Anda"
+    },
+    "vip": {
+        "vip_account": "akun VIP",
+        "vip_desc": "Halo Ravi, jadilah member vip dan nikmati keuntungan di bawah ini.",
+        "subscribe_plan": "Paket berlangganan",
+        "vip_1_month": "VIP 1 bulan",
+        "vip_6_month": "VIP 6 bulan",
+        "vip_1_year": "VIP 1 tahun",
+        "vip_benefits": "Manfaat VIP",
+        "discover_people": "Temukan lebih banyak orang di sekitar Anda.",
+        "people_like": "Lihat orang-orang yang menyukai Anda.",
+        "people_dislike": "Lihat orang yang tidak menyukaimu.",
+        "math_fast": "Dapatkan pertandingan lebih cepat.",
+        "select_method": "Pilih metode pembayaran Anda",
+        "credit_card": "Kartu Kredit/Kartu Debit",
+        "net_banking": "Perbankan bersih",
+        "upi_app": "Aplikasi UPI lainnya",
+        "subscribe": "LANGGANAN"
+    },
+    "payment": {
+        "payment_title": "Rincian pembayaran",
+        "card_holdar_name": "Nama pemegang kartu",
+        "name": "Masukkan nama pemegang kartu",
+        "card_number": "Nomor kartu",
+        "number": "Masukkan nomor kartu",
+        "cvv": "Masukkan CVV",
+        "cvv_num": "201",
+        "valid_through": "Berlaku Melalui",
+        "Valid_date": "Berlaku Melalui",
+        "pay_securlay": "BAYAR JAMINAN"
+    },
+    "success": {
+        "payment_success": "pembayaran berhasil",
+        "thank_you": "Terima kasih! Sekarang Anda menikmati semua \nmanfaat aplikasi ini dan menemukan pasangan Anda.",
+        "back_to_home": "Kembali ke rumah"
+    },
+    "about": {
+        "about_title": "Tentang kami",
+        "about_app": "Tentang aplikasi",
+        "term_of_use": "istilah penggunaan",
+        "source_libaries": "Perpustakaan sumber terbuka",
+        "app_version": "Versi aplikasi",
+        "question": "Apakah Anda memiliki pertanyaan?",
+        "send_message": "Kirim pesan ke alamat email kami:"
+    },
+    "share": {
+        "share_via": "Bagikan melalui"
+    },
+    "rate": {
+        "like_app": "Apakah Anda menyukai aplikasi ini?",
+        "what_you_think": "Biarkan tahu apa yang Anda pikirkan",
+        "write_mesaage": "Tulis pesanmu disini",
+        "cancel": "MEMBATALKAN",
+        "submit": "KIRIMKAN"
+    },
+    "signout": {
+        "Signout": "Keluar",
+        "sure_message": "Anda yakin ingin keluar?",
+        "no": "Tidak",
+        "yes": "Ya"
+    },
+    "vip_like": {
+        "who_like": "Pengguna yang menyukai Anda"
+    },
+    "vip_dislike": {
+        "who_dislike": "Pengguna yang tidak menyukai Anda"
+    },
+    "app_exit": {
+        "exit_text": "Tekan kembali sekali lagi untuk keluar"
+    },
+    "home": {
+        "near_you": "di dekat Anda",
+        "see_all": "Lihat semua",
+        "photo_name": "Galina Fischer, 24 ",
+        "waiting_text": "menunggu pasangan terbaik",
+        "away": "km jauhnya",
+        "hello_ravi": "Halo, Ravi",
+        "find_partner": "temukan pasangan hidupmu"
+    },
+    "it_match": {
+        "cong_match": "Selamat\nIni pertandingan",
+        "match_desc": "Anda dan Galina memiliki 80% kecocokan, mari kita tanyakan padanya tentang sesuatu yang menarik",
+        "send_msg": "MENGIRIM PESAN"
+    },
+    "chat": {
+        "name": "Kirti Patel",
+        "online": "On line",
+        "block": "Memblokir",
+        "block_text": "Anda yakin ingin memblokir kirti?",
+        "no": "Tidak",
+        "yes": "Ya",
+        "block_account": "Blokir Akun",
+        "report": "Laporan",
+        "type_text": "Ketik teks Anda di sini ...."
+    },
+    "call": {
+        "chat": "Mengobrol",
+        "name": "Kirti Patel",
+        "dialing": "Panggilan..."
+    },
+    "video_call": {
+        "name": "Kirti  Patel"
+    },
+    "detail": {
+        "name": "Galina Fishar, 24",
+        "location": "Mumbai, India",
+        "about": "Tentang",
+        "basic_info": "Informasi dasar",
+        "height": "Tinggi",
+        "height_num": "175 cm",
+        "weight": "Bobot",
+        "weight_kg": "50 kg",
+        "birth_date": "Tanggal lahir",
+        "date": "1 januari 2001",
+        "relationship": "Hubungan",
+        "re_status": "lajang",
+        "occupation": "Pekerjaan",
+        "occupation_name": "desainer ux",
+        "company": "Perusahaan",
+        "company_name": "Jsk infotact",
+        "nation": "Bangsa",
+        "nation_name": "Indian",
+        "intrest": "Minat",
+        "intrest_name": "Membaca, berenang, musik",
+        "photo": "Foto"
+    },
+    "match": {
+        "match_title": "Cocok"
+    },
+    "message": {
+        "msg_title": "Pesan"
+    },
+    "near_you": {
+        "near_you": "Di dekat Anda"
+    },
+    "notification": {
+        "notification": "Pemberitahuan",
+        "no_notification": "Tidak ada pemberitahuan baru",
+        "today": "Hari ini",
+        "remove_text": "Hapus Dari Pemberitahuan",
+        "yesterday": "Kemarin"
+    },
+    "splash": {
+        "splash_name": "Cocok"
+    },
+    "onborading": {
+        "find_best": "TEMUKAN YANG TERBAIK ANDA",
+        "partner": "MITRA",
+        "get_started": "MEMULAI"
+    },
+    "show_me": {
+        "show_me": "tunjukkan kepadaku",
+        "man": "PRIA",
+        "woman": "WANITA",
+        "Other": "LAINNYA"
+    },
+    "location_enable": {
+        "enable_disc": "Anda harus tidak dapat lokasi untuk menggunakan aplikasi ini.",
+        "enable_location": "AKTIFKAN LOKASI",
+        "please_wait": "Mohon tunggu"
+    },
+    "gender": {
+        "i_am": "saya adalah seorang",
+        "man": "PRIA",
+        "woman": "WANITA",
+        "other": "LAINNYA"
+    },
+    "sign_in": {
+        "signin": "MASUK",
+        "enter_no": "Masukkan no ponsel Anda",
+        "or": "Atau"
+    },
+    "sign_up": {
+        "signup": "DAFTAR",
+        "enter_name": "Masukkan nama Anda",
+        "enter_email": "Masukkan id email Anda",
+        "enter_moile": "Masukkan no ponsel Anda",
+        "or": "Atau"
+    },
+    "verification": {
+        "verify": "Verifikasi",
+        "continue": "Melanjutkan",
+        "resend": "Kirim ulang"
+    }
+}

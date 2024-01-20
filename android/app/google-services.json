@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "781278591059",
+    "project_id": "soe-dating-v1",
+    "storage_bucket": "soe-dating-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781278591059:android:4a95251c9870b764326ea6",
+        "android_client_info": {
+          "package_name": "com.tdev.soedating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781278591059-prvma9lroldts6eijlvtendtmgk92mas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tdev.soedating",
+            "certificate_hash": "74700a77bd6d7579be6b1ae88e53e27401926f27"
+          }
+        },
+        {
+          "client_id": "781278591059-9lrd80q7lgql0vs8tduk7keloi3rlrit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Bu3SnmN8oqrNjVFdHunbZ1HN4vByTJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781278591059-9lrd80q7lgql0vs8tduk7keloi3rlrit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
