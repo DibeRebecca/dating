@@ -598,7 +598,7 @@ class _ChatState extends State<Chat> {
                   },
                   textEditingController: textEditingController,
                   // pass here the same [TextEditingController] that is connected to your input field, usually a [TextFormField]
-                  config: Config(
+                  /*config: Config(
                     columns: 7,
                     emojiSizeMax: 30 * (Platform.isIOS ? 1.30 : 1.0),
                     // Issue: https://github.com/flutter/flutter/issues/28894
@@ -627,7 +627,7 @@ class _ChatState extends State<Chat> {
                     tabIndicatorAnimDuration: kTabScrollDuration,
                     categoryIcons: const CategoryIcons(),
                     buttonMode: ButtonMode.MATERIAL,
-                  ),
+                  ),*/
                 ),
               )
             : SizedBox()

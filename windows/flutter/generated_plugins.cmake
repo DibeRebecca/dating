@@ -3,7 +3,10 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  cloud_firestore
   emoji_picker_flutter
+  firebase_auth
+  firebase_core
   smart_auth
 )
 
