@@ -1,14 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:match_dating/auth/views_models/auth_view_model.dart';
 import 'package:match_dating/localization/localization_const.dart';
+import 'package:match_dating/models/user_login_response.dart';
 import 'package:match_dating/pages/profile/rate.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../theme/theme.dart';
 
-class ProfileScreen extends StatelessWidget {
+class ProfileScreen extends StatefulWidget {
   const ProfileScreen({Key? key}) : super(key: key);
 
   @override
+  State<ProfileScreen> createState() => _ProfileScreenState();
+}
+
+class _ProfileScreenState extends State<ProfileScreen> {
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final authViewModel = Provider.of<AuthViewModel>(context,listen: false);
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
@@ -257,6 +273,7 @@ class ProfileScreen extends StatelessWidget {
   }
 
   profileImageText(BuildContext context) {
+    final authViewModel = Provider.of<AuthViewModel>(context,listen: false);
     return Row(
       children: [
         const CircleAvatar(
@@ -268,7 +285,7 @@ class ProfileScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              getTranslated(context, 'profile.profile_name'),
+              '${authViewModel.lastname}',
               style: black18Style,
             ),
             heightSizeBox(3),

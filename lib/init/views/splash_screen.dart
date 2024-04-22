@@ -1,8 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:match_dating/auth/views_models/auth_view_model.dart';
 import 'package:match_dating/theme/theme.dart';
+import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../models/user_login_response.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -18,15 +22,26 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(
       const Duration(seconds: 3),
       () async {
-        SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+        SharedPreferences sharedPreferences =
+            await SharedPreferences.getInstance();
 
-        if (sharedPreferences.getBool("first_open") == null || sharedPreferences.getBool("first_open") == true) {
+        if (sharedPreferences.getBool("first_open") == null ||
+            sharedPreferences.getBool("first_open") == true) {
           Navigator.pushNamed(context, '/onboarding');
         } else {
-          if(sharedPreferences.getBool("is_logged_in") == true)
+          if (sharedPreferences.getBool("is_logged_in") == true) {
+            try {
+              SharedPreferences sharedPreferences =
+                  await SharedPreferences.getInstance();
+              final userDataJson = sharedPreferences.getString('user_data');
+              if (userDataJson != null) {
+                Provider.of<AuthViewModel>(context, listen: false).setConnectedUser(UserLoginResponse.fromJson(userDataJson));
+              }
+            } catch (e) {}
+
             Navigator.pushNamed(context, '/bottom');
-          else
-          Navigator.pushNamed(context, '/signin');
+          } else
+            Navigator.pushNamed(context, '/signin');
         }
       },
     );

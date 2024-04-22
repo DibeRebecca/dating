@@ -14,7 +14,7 @@ class GlobalMixin {
     }
     var dio = Dio(
       BaseOptions(
-        baseUrl: "https://easydatechat.herokuapp.com/api/",
+        baseUrl: "https://soe-dating.onrender.com/api/",
         headers: {
           'Content-type': 'application/json',
           'Accept': 'application/json',

@@ -3,8 +3,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:match_dating/auth/repo/api_status.dart';
 import 'package:match_dating/auth/repo/auth_services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:match_dating/models/user_login_response.dart';
 
-class AuthViewModel extends ChangeNotifier{
+class AuthViewModel extends ChangeNotifier {
   bool _loading = false;
   String _phone_number = "";
   String _password = "";
@@ -12,6 +13,7 @@ class AuthViewModel extends ChangeNotifier{
   String _last_name = "";
   bool _nextPageLoading = false;
   bool _otp_sending = false;
+  UserLoginResponse? _connectedUser;
   late String _otpCode;
   late String _verificationId;
   FirebaseAuth auth = FirebaseAuth.instance;
@@ -26,40 +28,49 @@ class AuthViewModel extends ChangeNotifier{
   String get firstname => _first_name;
   String get lastname => _last_name;
 
-  void setLoading(bool value){
+  void setLoading(bool value) {
     _loading = value;
     notifyListeners();
   }
 
-  void setPhoneNumber(String phoneNumber){
+  void setPhoneNumber(String phoneNumber) {
     _phone_number = "+228${phoneNumber}";
     notifyListeners();
   }
 
-  void setFirstName(String firstname){
+  void setFirstName(String firstname) {
     _first_name = firstname;
     notifyListeners();
   }
 
-  void setLastName(String lastname){
+  void setConnectedUser(UserLoginResponse user) {
+    _connectedUser = user;
+    notifyListeners();
+
+    setFirstName(_connectedUser?.nom ?? "");
+    setLastName(_connectedUser?.prenom ?? "");
+  }
+
+  void setLastName(String lastname) {
     _last_name = lastname;
     notifyListeners();
   }
 
-  void setPassword(String password){
+  void setPassword(String password) {
     _password = password;
     notifyListeners();
   }
 
-  Future<dynamic> loginUser()async {
-
+  Future<dynamic> loginUser() async {
+    print('Phone number: $_phone_number');
+    print('Password: $_password');
     setLoading(true);
     final response = await authService.loginUser({
-      "phone": { "e164": _phone_number },
+      "phone": {"e164": _phone_number},
       "password": _password
     });
 
-    if(response is SuccessLogin){
+    if (response is SuccessLogin) {
       setLoading(false);
       Fluttertoast.showToast(
           msg: response.response.toString(),
@@ -69,8 +80,11 @@ class AuthViewModel extends ChangeNotifier{
           backgroundColor: Colors.green,
           textColor: Colors.white,
           fontSize: 16.0);
-    }
-    else{
+
+      if (response.data != null) {
+        setConnectedUser(response.data!);
+      }
+    } else {
       setLoading(false);
       Fluttertoast.showToast(
           msg: response.response.toString(),
@@ -85,8 +99,7 @@ class AuthViewModel extends ChangeNotifier{
     return response;
   }
 
-
-  void setOtpCode(code){
+  void setOtpCode(code) {
     _otpCode = code;
   }
 
@@ -104,21 +117,21 @@ class AuthViewModel extends ChangeNotifier{
     _verificationId = verificationId;
   }
 
-  void gotoOtpPage(BuildContext context) {
+  void gotoOtpPage(BuildContext context) {}
 
-  }
-
-  Future<void> sendOtpMessage({required BuildContext context, bool goToNextScreen = false}) async {
+  Future<void> sendOtpMessage(
+      {required BuildContext context, bool goToNextScreen = false}) async {
     print("send mes now");
     print(_phone_number);
-    try{
+    try {
       setOtpSendind(true);
       await auth.verifyPhoneNumber(
         phoneNumber: _phone_number,
         timeout: const Duration(seconds: 60),
         verificationCompleted: (PhoneAuthCredential credential) {
-          if(goToNextScreen)
+          if (goToNextScreen) {
             gotoOtpPage(context);
+          }
         },
         verificationFailed: (FirebaseAuthException e) {
           setOtpSendind(false);
@@ -143,12 +156,9 @@ class AuthViewModel extends ChangeNotifier{
           setOtpSendind(false);
           notifyListeners();
         },
-
       );
-    }
-    catch($e){
+    } catch ($e) {
       setOtpSendind(false);
     }
-
   }
 }

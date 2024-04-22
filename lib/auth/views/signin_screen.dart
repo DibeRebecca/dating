@@ -6,7 +6,7 @@ import 'package:gap/gap.dart';
 import 'package:match_dating/auth/repo/api_status.dart';
 import 'package:match_dating/auth/views_models/auth_view_model.dart';
 import 'package:match_dating/localization/localization_const.dart';
-
+import 'package:http/http.dart' as http;
 import 'package:match_dating/theme/theme.dart';
 import 'package:provider/provider.dart';
 
@@ -27,6 +27,8 @@ class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+    final screenHeight = MediaQuery.of(context).size.height;
+    
     return WillPopScope(
       onWillPop: () async {
         bool backStatus = onWillPop();
@@ -55,6 +57,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     parent: AlwaysScrollableScrollPhysics()
                   ),
                   children: [
+                    SizedBox(height: 100,),
                     logoImageText(size),
                     const Gap(10),
                     signinBox(size),
@@ -204,12 +207,12 @@ class _SignInScreenState extends State<SignInScreen> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Image.asset(
+        /*Image.asset(
           "assets/splash/splashLogo.png",
           height: size.height * 0.16,
           width: size.height * 0.16,
           fit: BoxFit.cover,
-        ),
+        ),*/
         Text(
           "Soe Dating",
           style: TextStyle(
