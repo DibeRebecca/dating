@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:match_dating/home/models/users.dart';
 import 'package:match_dating/home/repo/api_status.dart';
 import 'package:match_dating/home/repo/home_services.dart';
+import 'package:match_dating/models/user_match.dart';
 import 'package:swipe_cards/draggable_card.dart';
 import 'package:swipe_cards/swipe_cards.dart';
 
 class HomeViewModel extends ChangeNotifier {
-  List<Users> _users_for_match = [];
+  List<UserMatch> _users_for_match = [];
   List<Users> _friends = [];
   HomeService homeService = new HomeService();
   List<SwipeItem> _swipeItems = <SwipeItem>[];
@@ -14,7 +15,7 @@ class HomeViewModel extends ChangeNotifier {
   bool _loading = true;
   bool _loadingFriends = false;
 
-  List<Users> get users_for_match => _users_for_match;
+  List<UserMatch> get users_for_match => _users_for_match;
   List<Users> get friends => _friends;
 
   MatchEngine get matchEngine => _matchEngine;
@@ -42,9 +43,9 @@ class HomeViewModel extends ChangeNotifier {
         _swipeItems.add(
           SwipeItem(
             content: Content(
-                prenom: _users_for_match[i].prenom,
-                nom: _users_for_match[i].nom,
-                avatar: _users_for_match[i]!.avatar,
+                prenom: _users_for_match[i].prenom ?? "",
+                nom: _users_for_match[i].nom ?? "",
+                avatar: _users_for_match[i].avatar,
               color: Colors.white,
               text: "${_users_for_match[i].prenom} ${_users_for_match[i].nom}"
             ),

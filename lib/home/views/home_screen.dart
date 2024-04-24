@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:match_dating/home/views_models/home_view_model.dart';
 import 'package:match_dating/localization/localization_const.dart';
 import 'package:match_dating/theme/theme.dart';
@@ -218,11 +219,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 alignment: Alignment.center,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.all(Radius.circular(20)),
-                                  image: DecorationImage(
-                                      image: NetworkImage(homeViewModel.swipeItems[index].content.avatar),
-                                      fit: BoxFit.cover
-                                  ),
+                                  
                                 ),
+                                child: SvgPicture.network(homeViewModel.swipeItems[index].content.avatar),
                               ),
                               Positioned(
                                 bottom: 0,

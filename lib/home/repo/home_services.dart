@@ -5,32 +5,36 @@ import 'package:match_dating/endpoints.dart';
 import 'package:match_dating/home/models/users.dart';
 import 'package:match_dating/home/repo/api_status.dart';
 import 'package:match_dating/mixins/global.dart';
+import 'package:match_dating/models/user_match.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class HomeService extends GlobalMixin{
-
-
+class HomeService extends GlobalMixin {
   Future<dynamic> getUsersForMatch() async {
-    try{
+    try {
       Dio dio_instance = await dio();
       final response = await dio_instance.get(
         EndPoints.userForMatch,
       );
 
-      if(response.statusCode == 201 || response.statusCode == 200){
-        return SuccessGeetingUsersForMatch(code: 200, usersForMatch: Users.usersFromJson(jsonEncode(response.data)));
+      if (response.statusCode == 201 || response.statusCode == 200) {
+        return SuccessGeetingUsersForMatch(
+          code: 200,
+          usersForMatch: List<UserMatch>.from((response.data as List<dynamic>).map((x) {
+            return UserMatch.fromMap(x);
+          })),
+        );
+      } else {
+        return ErrorGeetingUsersForMatch(
+            code: 500, errorResponse: "Une erreur s'es produite");
+        // return ErrorLogin(code: 500, response: "Une erreur s'est produite", trace: response.data);
       }
-      else{
-        return ErrorGeetingUsersForMatch(code: 500, errorResponse: "Une erreur s'es produite");
-       // return ErrorLogin(code: 500, response: "Une erreur s'est produite", trace: response.data);
-      }
-    }
-    catch(e){
-      if(e is DioError){
+    } catch (e) {
+      if (e is DioError) {
         print("dio response data");
         print(e.response!.statusCode.toString());
         print(e.response);
-        return ErrorGeetingUsersForMatch(code: 500, errorResponse: "Une erreur s'es produite");
+        return ErrorGeetingUsersForMatch(
+            code: 500, errorResponse: "Une erreur s'es produite");
       }
 
       print("not dio error");
@@ -41,18 +45,18 @@ class HomeService extends GlobalMixin{
   }
 
   Future<List<Users>> getMyFriends() async {
-    try{
+    try {
       Dio dio_instance = await dio();
       final response = await dio_instance.get(
         EndPoints.myFriends,
       );
 
-      List<Users> friends = Users.usersFromJson(jsonEncode(response.data["users"]));
+      List<Users> friends =
+          Users.usersFromJson(jsonEncode(response.data["users"]));
       print("success getting friends");
 
       return friends;
-    }
-    catch(e){
+    } catch (e) {
       print("error when getting friends");
       print(e);
       return [];
