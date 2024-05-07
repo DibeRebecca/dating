@@ -9,11 +9,11 @@ import 'package:swipe_cards/swipe_cards.dart';
 class HomeViewModel extends ChangeNotifier {
   List<UserMatch> _users_for_match = [];
   List<Users> _friends = [];
-  HomeService homeService = new HomeService();
+  HomeService homeService = HomeService();
   List<SwipeItem> _swipeItems = <SwipeItem>[];
   late MatchEngine _matchEngine;
   bool _loading = true;
-  bool _loadingFriends = false;
+  final bool _loadingFriends = false;
 
   List<UserMatch> get users_for_match => _users_for_match;
   List<Users> get friends => _friends;
@@ -32,7 +32,7 @@ class HomeViewModel extends ChangeNotifier {
 
   Future<dynamic> getUsersForMatch() async {
     setLoading(true);
-    final response = await this.homeService.getUsersForMatch();
+    final response = await homeService.getUsersForMatch();
 
     if (response is SuccessGeetingUsersForMatch) {
       _users_for_match = response.usersForMatch;
@@ -43,11 +43,12 @@ class HomeViewModel extends ChangeNotifier {
         _swipeItems.add(
           SwipeItem(
             content: Content(
-                prenom: _users_for_match[i].prenom ?? "",
-                nom: _users_for_match[i].nom ?? "",
-                avatar: _users_for_match[i].avatar,
+              id: _users_for_match[i].id ?? "",
+              prenom: _users_for_match[i].prenom ?? "",
+              nom: _users_for_match[i].nom ?? "",
+              avatar: _users_for_match[i].avatar,
               color: Colors.white,
-              text: "${_users_for_match[i].prenom} ${_users_for_match[i].nom}"
+              text: "${_users_for_match[i].prenom} ${_users_for_match[i].nom}",
             ),
             likeAction: () {},
             nopeAction: () {},
@@ -64,8 +65,23 @@ class HomeViewModel extends ChangeNotifier {
     }
   }
 
+  Future<void> match(String userId) async {
+    setLoading(true);
+
+    _swipeItems = _swipeItems
+        .where(
+          (element) => element.content.id != userId,
+        )
+        .toList();
+
+    notifyListeners();
+
+    _matchEngine = MatchEngine(swipeItems: _swipeItems);
+    setLoading(false);
+  }
+
   Future<dynamic> getMyFriends() async {
-    final response = await this.homeService.getMyFriends();
+    final response = await homeService.getMyFriends();
     _friends = response;
     notifyListeners();
   }
@@ -77,6 +93,14 @@ class Content {
   final String? avatar;
   final String text;
   final Color color;
+  final String id;
 
-  Content({required this.prenom, required this.nom, required this.text, required this.avatar, required this.color});
+  Content({
+    required this.prenom,
+    required this.id,
+    required this.nom,
+    required this.text,
+    required this.avatar,
+    required this.color,
+  });
 }

@@ -3,10 +3,11 @@ import 'package:gap/gap.dart';
 import 'package:match_dating/auth/views_models/auth_view_model.dart';
 import 'package:match_dating/localization/localization_const.dart';
 import 'package:provider/provider.dart';
+
 import '../../theme/theme.dart';
 
 class SignUpScreen extends StatefulWidget {
-  const SignUpScreen({Key? key}) : super(key: key);
+  const SignUpScreen({super.key});
 
   @override
   State<SignUpScreen> createState() => _SignUpScreenState();
@@ -37,8 +38,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         child: SafeArea(
           child: ListView(
             physics: const BouncingScrollPhysics(
-              parent: AlwaysScrollableScrollPhysics()
-            ),
+                parent: AlwaysScrollableScrollPhysics()),
             children: [
               logo(size),
               const Gap(10),
@@ -82,8 +82,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   children: [
                     Container(
                       height: 100,
-                      width: size.width*0.4,
-                      margin: const EdgeInsets.symmetric(horizontal: fixPadding * 0),
+                      width: size.width * 0.4,
+                      margin: const EdgeInsets.symmetric(
+                          horizontal: fixPadding * 0),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(10),
@@ -103,7 +104,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               }
                               return null;
                             },
-                            onChanged: (value){
+                            onChanged: (value) {
                               authViewModel.setFirstName(value);
                             },
                             cursorColor: primaryColor,
@@ -116,18 +117,19 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   color: greyColor94,
                                   size: 17,
                                 ),
-                                hintText: getTranslated(context, 'sign_up.enter_firstname'),
-                                hintStyle: medium14GreyStyle
-                            ),
+                                hintText: getTranslated(
+                                    context, 'sign_up.enter_firstname'),
+                                hintStyle: medium14GreyStyle),
                           )
                         ],
                       ),
                     ),
-                    Gap(5),
+                    const Gap(5),
                     Container(
                       height: 50,
-                      width: size.width*0.4,
-                      margin: const EdgeInsets.symmetric(horizontal: fixPadding * 0),
+                      width: size.width * 0.4,
+                      margin: const EdgeInsets.symmetric(
+                          horizontal: fixPadding * 0),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(10),
@@ -145,7 +147,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           }
                           return null;
                         },
-                        onChanged: (value){
+                        onChanged: (value) {
                           authViewModel.setLastName(value);
                         },
                         cursorColor: primaryColor,
@@ -158,13 +160,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               color: greyColor94,
                               size: 17,
                             ),
-                            hintText: getTranslated(context, 'sign_up.enter_lastname'),
+                            hintText: getTranslated(
+                                context, 'sign_up.enter_lastname'),
                             hintStyle: medium14GreyStyle),
                       ),
                     )
                   ],
                 ),
-                Gap(12),
+                const Gap(12),
                 phoneTextField(),
               ],
             ),
@@ -175,14 +178,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 GestureDetector(
-                  onTap: authViewModel.otp_sending?null: () async {
-                    try{
+                  // onTap: authViewModel.otp_sending
+                  onTap: () async {
+                    try {
                       if (_formKey.currentState!.validate()) {
                         await authViewModel.sendOtpMessage(context: context);
                       }
-                    }
-                    catch($e){
-                    }
+                    } catch (e) {}
                   },
                   child: Container(
                     height: size.height * 0.06,
@@ -190,28 +192,28 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
-                      gradient: authViewModel.otp_sending?
-                      LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          greyColor.withOpacity(0.7),
-                          greyColor.withOpacity(0.75),
-                        ],
-                      )
-                      :
-                      LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          primaryColor.withOpacity(0.7),
-                          gridentColor.withOpacity(0.75),
-                        ],
-                      ),
+                      gradient: authViewModel.otp_sending
+                          ? LinearGradient(
+                              begin: Alignment.topCenter,
+                              end: Alignment.bottomCenter,
+                              colors: [
+                                greyColor.withOpacity(0.7),
+                                greyColor.withOpacity(0.75),
+                              ],
+                            )
+                          : LinearGradient(
+                              begin: Alignment.topCenter,
+                              end: Alignment.bottomCenter,
+                              colors: [
+                                primaryColor.withOpacity(0.7),
+                                gridentColor.withOpacity(0.75),
+                              ],
+                            ),
                     ),
                     child: Text(
-                      authViewModel.otp_sending?"...":
-                      getTranslated(context, 'sign_up.signup'),
+                      authViewModel.otp_sending
+                          ? "..."
+                          : getTranslated(context, 'sign_up.signup'),
                       style: extraboldTextStyle.copyWith(
                         fontSize: 21,
                       ),
@@ -249,7 +251,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           }
           return null;
         },
-        onChanged: (value){
+        onChanged: (value) {
           authViewModel.setPhoneNumber(value);
         },
         cursorColor: primaryColor,
